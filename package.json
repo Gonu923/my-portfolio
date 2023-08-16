@@ -15,6 +15,8 @@
     "react-scroll": "^1.8.9",
     "styled-components": "^6.0.7",
     "web-vitals": "^2.1.4"
+    "homepage": "https://gonu923.github.io/my-portfolio",
+
   },
   "scripts": {
     "start": "react-scripts start",
