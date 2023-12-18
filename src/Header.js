@@ -1,22 +1,34 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const HeaderContainer = styled.header`
   background: linear-gradient(to bottom, #333, #222);
   color: #fff;
   padding: 2rem;
   text-align: center;
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 `;
 
 const Title = styled.h1`
   font-size: 3rem;
   margin: 0;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
 `;
 
 const Subtitle = styled.p`
   font-size: 1.2rem;
   margin: 0;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 const AnimatedButton = styled.a`
@@ -34,8 +46,12 @@ const AnimatedButton = styled.a`
   &:hover {
     background-color: #d04;
   }
-`;
 
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+  }
+`;
 
 const Header = () => {
   return (
