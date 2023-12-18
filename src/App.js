@@ -7,6 +7,11 @@ import Experience from './Experience.js';
 import Footer from './Footer.js';
 const projectData = [
   {
+    name: 'SixthGenAi',
+    description: 'Collaborated on the development of Digiteyes Art...',
+    link: 'https://6thgen.ai/'
+  },
+  {
     name: 'Digiteyes Art',
     description: 'Collaborated on the development of Digiteyes Art...',
     link: 'https://digiteyesart.com/'
